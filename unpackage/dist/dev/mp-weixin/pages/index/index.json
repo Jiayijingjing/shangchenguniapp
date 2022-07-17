@@ -1,0 +1,11 @@
+{
+  "navigationBarTitleText": "百年奥莱",
+  "navigationBarBackgroundColor": "#ffffff",
+  "usingComponents": {
+    "swipers": "/components/index/indexSwiper",
+    "recommend": "/components/index/recommend",
+    "cards": "/components/common/cards",
+    "banner": "/components/index/banner",
+    "coins": "/components/index/icons"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "id": "3525308",
+  "name": "shangcheng",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "356438",
+      "name": "放大镜",
+      "font_class": "fangdajing",
+      "unicode": "e60d",
+      "unicode_decimal": 58893
+    },
+    {
+      "icon_id": "3522447",
+      "name": "消息",
+      "font_class": "xiaoxi",
+      "unicode": "e607",
+      "unicode_decimal": 58887
+    }
+  ]
+}

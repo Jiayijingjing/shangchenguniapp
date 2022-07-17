@@ -1,0 +1,6 @@
+{
+  "navigationBarBackgroundColor": "#ffffff",
+  "usingComponents": {
+    "cards": "/components/common/cards"
+  }
+}

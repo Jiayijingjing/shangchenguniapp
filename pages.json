@@ -1,0 +1,193 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "百年奥莱",
+				"navigationBarBackgroundColor": "#ffffff",
+				// "navigationStyle": "custom",
+				"app-plus": {
+					"scrollIndicator":"none",
+					"titleNView":{
+						"buttons": [{
+							"float":"left",
+							"fontSrc":"static/iconfont.ttf",
+							"text": "\ue60d",
+							"fontSize": "18px"
+						},{
+							"float":"right",
+							"fontSrc":"static/iconfont.ttf",
+							"text": "\ue607",
+							"fontSize": "26px"
+						}]
+					}
+				}
+			}
+		}
+	    ,{
+            "path" : "pages/list/list",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/my/my",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        },
+		{
+		    "path" : "pages/shop/shop",
+		    "style" :                                                                                    
+		    {
+		        "navigationBarTitleText": "",
+		        "enablePullDownRefresh": false
+		    }
+		    
+		}
+        ,{
+            "path" : "components/common/cards",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "components/common/commodity",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "components/index/banner",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "components/index/icons",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/search/search",
+            "style" :                                                                                    
+            {
+				"navigationBarBackgroundColor": "#ffffff",
+				"app-plus": {
+					"scrollIndicator":"none",
+					"titleNView":{
+						"searchInput": {
+							"placeholder":"nike",
+							"disabled":false,
+							"align":"left",
+							"autoFocus":true,
+							"borderRadius":"15px",
+							"backgroundColor":"#e6e6e6",
+							"placeholderColor":"B3B3B3"
+						},
+						"buttons":[{
+							"float": "right",
+							"color": "#636363",
+							"text": "搜索",
+							"fontSize": "14px",
+							"width":"40px"
+						}]
+						
+					}
+				}
+				
+            }
+            
+        }
+        ,{
+            "path" : "pages/messages/messages",
+            "style" :                                                                                    
+            {
+				"navigationBarBackgroundColor": "#ffffff",
+				"app-plus": {
+					"scrollIndicator":"none",
+					"titleNView":{
+						"searchInput": {
+							"placeholder":"",
+							"disabled":false,
+							"align":"left",
+							"autoFocus":true,
+							"borderRadius":"15px",
+							"backgroundColor":"#e6e6e6",
+							"placeholderColor":"B3B3B3"
+						},
+						"buttons":[{
+							"float": "right",
+							"color": "#636363",
+							"text": "搜索",
+							"fontSize": "14px",
+							"width":"40px"
+						}]
+						
+					}
+				}
+				
+            }
+            
+        }
+    ],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+	"tabBar": {
+			"color": "#7A7E83",
+			"selectedColor": "#181818",
+			"borderStyle": "black",
+			"backgroundColor": "#ffffff",
+			"spacing": "2px",
+			"height": "54px",
+			"list": [{
+				"pagePath": "pages/index/index",
+				"iconPath": "static/housekong.png",
+				"selectedIconPath": "static/house.png",
+				"text": "首页"
+			}, {
+				"pagePath": "pages/list/list",
+				"iconPath": "static/fenleikong.png",
+				"selectedIconPath": "static/fenlei.png",
+				"text": "分类"
+			},
+			{
+				"pagePath": "pages/shop/shop",
+				"iconPath": "static/shop.png",
+				"selectedIconPath": "static/shopfull.png",
+				"text": "购物车"
+			},
+			{
+				"pagePath": "pages/my/my",
+				"iconPath": "static/mekong.png",
+				"selectedIconPath": "static/me.png",
+				"text": "我的"
+			}]			
+	},
+	"uniIdRouter": {}
+	
+	
+}
